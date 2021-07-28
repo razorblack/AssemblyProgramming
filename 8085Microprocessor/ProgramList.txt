@@ -1,0 +1,28 @@
+Program No.       ||          Task
+
+Program1.		Write an Assembly Language Program to add two 8-bit numbers when
+			(i) Both the numbers are in registers
+			(ii) One number is in register and another one is in the memory.
+			(iii) One number is in register and another one is the constant.
+			using 8085 microprocessor.
+
+Program2.		Write an Assembly Language Program to subtract two 8-bit numbers when
+			(i) Both the numbers are in registers
+			(ii) One number is in register and another one is in the memory.
+			(iii) One number is in register and another one is the constant.
+			using 8085 microprocessor.
+
+Program3. 		Write an Assembly Language Program to multiply two 8-bit numbers using 8085
+			microprocessor.
+
+Program4. 		Write an Assembly Language Program to perform division of two 8-bit numbers using
+			8085 microprocessor.
+
+Program5. 		Write an Assembly Language Program to find out largest and smallest number using
+			8085 microprocessor.
+
+Program6. 		Write an Assembly Language Program to develop and run a programme for computing
+			ascending/descending order of a number using 8085 microprocessor.
+
+Program7. 		To convert given Hexadecimal number into its equivalent ASCII number and vice versa
+			using 8085 instruction set.

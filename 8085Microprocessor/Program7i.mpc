@@ -1,0 +1,76 @@
+8000
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Courier New;}}
+{\colortbl ;\red0\green0\blue0;}
+\viewkind4\uc1\pard\li195\cf1\f0\fs20 LDA 5000h
+\par MOV B A
+\par ANI 0Fh
+\par CALL ASCII
+\par STA 5001h
+\par MOV A B
+\par ANI F0h
+\par RLC
+\par RLC
+\par RLC
+\par RLC
+\par CALL ASCII
+\par STA 5002h
+\par HLT
+\par 
+\par ASCII: CPI 0Ah
+\par JC SKIP
+\par ADI 07h
+\par 
+\par SKIP: ADI 30h
+\par RET
+\par 
+\par 
+\par }
+<End Codes>
+20
+1| 5000| 0F
+2| 5001| 46
+3| 5002| 30
+4| 5003| 00
+5| 5004| 00
+<End UserData>
+159
+1| 8000| 3A
+2| 8001| 00
+3| 8002| 50
+4| 8003| 47
+5| 8004| E6
+6| 8005| 0F
+7| 8006| CD
+8| 8007| 1A
+9| 8008| 80
+10| 8009| 32
+11| 800A| 01
+12| 800B| 50
+13| 800C| 78
+14| 800D| E6
+15| 800E| F0
+16| 800F| 07
+17| 8010| 07
+18| 8011| 07
+19| 8012| 07
+20| 8013| CD
+21| 8014| 1A
+22| 8015| 80
+23| 8016| 32
+24| 8017| 02
+25| 8018| 50
+26| 8019| 76
+27| 801A| FE
+28| 801B| 0A
+29| 801C| DA
+30| 801D| 21
+31| 801E| 80
+32| 801F| C6
+33| 8020| 07
+34| 8021| C6
+35| 8022| 30
+36| 8023| C9
+<End HexData>
+
+
+<End Comment>
